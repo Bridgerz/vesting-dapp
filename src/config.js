@@ -2,8 +2,8 @@ const env = process.env.NODE_ENV;
 
 // TODO fill parameters values
 const localHostConfig = {
-  tokenVestingContractAddress: "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
-  explorerRootURL: "https://testnet.bscscan.com/",
+  tokenVestingContractAddress: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+  explorerRootURL: "https://explorer.celo.org",
   tokenVestingContractAbi: require("./assets/abi/TokenVesting.json"),
   tokenVestingContractBytecode: require("./assets/bytecode/TokenVesting.json")
     .bytecode,
@@ -12,8 +12,8 @@ const localHostConfig = {
 
 // TODO fill parameters values
 const bscTesnetConfig = {
-  tokenVestingContractAddress: "TBA",
-  explorerRootURL: "https://goerli.etherscan.io/",
+  tokenVestingContractAddress: "0x2D47b4611D953f1435605eC3c47dB735Af22e4B3",
+  explorerRootURL: "https://explorer.celo.org",
   tokenVestingContractAbi: require("./assets/abi/TokenVesting.json"),
   tokenVestingContractBytecode: require("./assets/bytecode/TokenVesting.json")
     .bytecode,
@@ -22,8 +22,8 @@ const bscTesnetConfig = {
 
 // TODO fill parameters values
 const mainnetConfig = {
-  tokenVestingContractAddress: "TBA",
-  explorerRootURL: "https://etherscan.io/",
+  tokenVestingContractAddress: "0x2D47b4611D953f1435605eC3c47dB735Af22e4B3",
+  explorerRootURL: "https://explorer.celo.org",
   tokenVestingContractAbi: require("./assets/abi/TokenVesting.json"),
   tokenVestingContractBytecode: require("./assets/bytecode/TokenVesting.json")
     .bytecode,

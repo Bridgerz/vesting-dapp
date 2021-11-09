@@ -49,10 +49,6 @@
     "type": "event"
   },
   {
-    "stateMutability": "payable",
-    "type": "fallback"
-  },
-  {
     "inputs": [
       {
         "internalType": "address",
@@ -171,7 +167,12 @@
         "components": [
           {
             "internalType": "bool",
-            "name": "initialized",
+            "name": "revocable",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "revoked",
             "type": "bool"
           },
           {
@@ -200,11 +201,6 @@
             "type": "uint256"
           },
           {
-            "internalType": "bool",
-            "name": "revocable",
-            "type": "bool"
-          },
-          {
             "internalType": "uint256",
             "name": "amountTotal",
             "type": "uint256"
@@ -213,11 +209,6 @@
             "internalType": "uint256",
             "name": "released",
             "type": "uint256"
-          },
-          {
-            "internalType": "bool",
-            "name": "revoked",
-            "type": "bool"
           }
         ],
         "internalType": "struct TokenVesting.VestingSchedule",
@@ -274,7 +265,12 @@
         "components": [
           {
             "internalType": "bool",
-            "name": "initialized",
+            "name": "revocable",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "revoked",
             "type": "bool"
           },
           {
@@ -303,11 +299,6 @@
             "type": "uint256"
           },
           {
-            "internalType": "bool",
-            "name": "revocable",
-            "type": "bool"
-          },
-          {
             "internalType": "uint256",
             "name": "amountTotal",
             "type": "uint256"
@@ -316,11 +307,6 @@
             "internalType": "uint256",
             "name": "released",
             "type": "uint256"
-          },
-          {
-            "internalType": "bool",
-            "name": "revoked",
-            "type": "bool"
           }
         ],
         "internalType": "struct TokenVesting.VestingSchedule",
@@ -350,7 +336,12 @@
         "components": [
           {
             "internalType": "bool",
-            "name": "initialized",
+            "name": "revocable",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "revoked",
             "type": "bool"
           },
           {
@@ -379,11 +370,6 @@
             "type": "uint256"
           },
           {
-            "internalType": "bool",
-            "name": "revocable",
-            "type": "bool"
-          },
-          {
             "internalType": "uint256",
             "name": "amountTotal",
             "type": "uint256"
@@ -392,11 +378,6 @@
             "internalType": "uint256",
             "name": "released",
             "type": "uint256"
-          },
-          {
-            "internalType": "bool",
-            "name": "revoked",
-            "type": "bool"
           }
         ],
         "internalType": "struct TokenVesting.VestingSchedule",
@@ -541,9 +522,5 @@
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
-  },
-  {
-    "stateMutability": "payable",
-    "type": "receive"
   }
 ]
