@@ -12,7 +12,7 @@ const localHostConfig = {
 
 // TODO fill parameters values
 const bscTesnetConfig = {
-  tokenVestingContractAddress: "0x3A51FE2790f2Fc13e992fa582c63A88CB925154B",
+  tokenVestingContractAddress: "0x2D47b4611D953f1435605eC3c47dB735Af22e4B3",
   explorerRootURL: "https://explorer.celo.org",
   tokenVestingContractAbi: require("./assets/abi/TokenVesting.json"),
   tokenVestingContractBytecode: require("./assets/bytecode/TokenVesting.json")
@@ -22,7 +22,7 @@ const bscTesnetConfig = {
 
 // TODO fill parameters values
 const mainnetConfig = {
-  tokenVestingContractAddress: "0x3A51FE2790f2Fc13e992fa582c63A88CB925154B",
+  tokenVestingContractAddress: "0x2D47b4611D953f1435605eC3c47dB735Af22e4B3",
   explorerRootURL: "https://explorer.celo.org",
   tokenVestingContractAbi: require("./assets/abi/TokenVesting.json"),
   tokenVestingContractBytecode: require("./assets/bytecode/TokenVesting.json")
