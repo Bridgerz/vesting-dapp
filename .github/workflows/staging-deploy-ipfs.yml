@@ -41,7 +41,7 @@ jobs:
         id: upload
         uses: ReSource-Network/ipfs-action@v1.8.1
         with:
-          path: ./build
+          path: ./dist
           pinataPinName: staging-vesting-dapp
           service: pinata
           pinataKey: ${{ secrets.PINATA_KEY }}
