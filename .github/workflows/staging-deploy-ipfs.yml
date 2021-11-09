@@ -55,4 +55,4 @@ jobs:
           TOKEN: ${{secrets.CLOUDFLARE_TOKEN}}
           ZONE_ID: ${{secrets.CLOUDFLARE_ZONE_ID}}
           RECORD_DOMAIN: "resource.finance"
-          RECORD_NAME: "_dnslink.staging"
+          RECORD_NAME: "_dnslink.staging-vesting"

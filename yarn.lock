@@ -1804,35 +1804,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@resource/vesting-dapp@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@resource/vesting-dapp@workspace:."
-  dependencies:
-    "@vue/cli-plugin-babel": ~4.5.0
-    "@vue/cli-plugin-eslint": ~4.5.0
-    "@vue/cli-service": ~4.5.0
-    babel-eslint: ^10.1.0
-    core-js: ^3.6.5
-    crypto-js: ^4.0.0
-    eslint: ^6.7.2
-    eslint-plugin-vue: ^6.2.2
-    ethers: ^5.3.0
-    humanize-duration: ^3.27.0
-    prettier: ^2.3.0
-    sass: ^1.32.0
-    sass-loader: ^10.0.0
-    vue: ^2.6.11
-    vue-cli-plugin-vuetify: ~2.4.0
-    vue-clipboard2: ^0.3.1
-    vue-router: ^3.5.1
-    vue-template-compiler: ^2.6.11
-    vuetify: ^2.4.0
-    vuetify-loader: ^1.7.0
-    vuex: ^3.6.2
-    web3: ^1.3.6
-  languageName: unknown
-  linkType: soft
-
 "@sindresorhus/is@npm:^0.14.0":
   version: 0.14.0
   resolution: "@sindresorhus/is@npm:0.14.0"
@@ -13065,6 +13036,35 @@ __metadata:
   checksum: c431df0bedf2088b227a4e051e0ff4ca54df2c114096b0c01e1cbaadb021c30a04d7dd5b41ab277bcd51246ca135bf931d4c4c796ecae7a4fef6d744ecef36ea
   languageName: node
   linkType: hard
+
+"vesting@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "vesting@workspace:."
+  dependencies:
+    "@vue/cli-plugin-babel": ~4.5.0
+    "@vue/cli-plugin-eslint": ~4.5.0
+    "@vue/cli-service": ~4.5.0
+    babel-eslint: ^10.1.0
+    core-js: ^3.6.5
+    crypto-js: ^4.0.0
+    eslint: ^6.7.2
+    eslint-plugin-vue: ^6.2.2
+    ethers: ^5.3.0
+    humanize-duration: ^3.27.0
+    prettier: ^2.3.0
+    sass: ^1.32.0
+    sass-loader: ^10.0.0
+    vue: ^2.6.11
+    vue-cli-plugin-vuetify: ~2.4.0
+    vue-clipboard2: ^0.3.1
+    vue-router: ^3.5.1
+    vue-template-compiler: ^2.6.11
+    vuetify: ^2.4.0
+    vuetify-loader: ^1.7.0
+    vuex: ^3.6.2
+    web3: ^1.3.6
+  languageName: unknown
+  linkType: soft
 
 "vm-browserify@npm:^1.0.1":
   version: 1.1.2
