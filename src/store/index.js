@@ -1,13 +1,13 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import { globalConfig } from "../config";
+import { config } from "../config";
 
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
     web3: null,
-    globalConfig: globalConfig,
+    globalConfig: config,
     tokenVesting: null,
     erc20: {
       contract: null,
