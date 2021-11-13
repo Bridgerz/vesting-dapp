@@ -35,7 +35,7 @@ jobs:
       - name: Build
         env:
           VUE_APP_NETWORK_EXPLORER: https://explorer.celo.org
-          VUE_APP_SOURCE_ADDRESS: "0x74c0C58B99b68cF16A717279AC2d056A34ba2bFe"
+          VUE_APP_SOURCE_ADDRESS: "0x9d806E9004F21B041fFC941be8D8f4B835369f40"
         run: |
           export CI=false 
           yarn build
